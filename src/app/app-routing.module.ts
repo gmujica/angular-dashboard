@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { DefaultModule } from './layouts/default/default.module';
 import { DefaultComponent } from './layouts/default/default.component';
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
+import { PostsComponent } from './modules/posts/posts.component';
 
 
 const routes: Routes = [{
@@ -11,6 +12,10 @@ const routes: Routes = [{
   children: [{
     path: '',
     component: DashboardComponent
+  }, {
+    path: 'posts',
+    component: PostsComponent
+
   }]
 }];
 
