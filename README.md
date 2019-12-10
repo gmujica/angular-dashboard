@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
+An elaborate dashboard developed with Angular 8 that allows you to keep track of various processes and statistics
+
+## Images
+![](./src/img/2.png)
+
+# Development technologies
+
+- [Angular 8](https://angular.io/)
+- [highcharts](https://www.highcharts.com/)    
+- [Angular Material](https://material.angular.io/)
+- [Angular flex-layout](https://github.com/angular/flex-layout)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
